@@ -2,8 +2,8 @@ class ATM:
 
     def __init__(self):
         
-        self.balance = 0
-        self.pin = 0
+        self.__balance = 0
+        self.__pin = 0
         self.Menu()
     def Menu(self):
         USER_INPUT =input(
